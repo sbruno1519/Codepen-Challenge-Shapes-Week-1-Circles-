@@ -1,0 +1,187 @@
+body {
+  background: black;
+}
+.solarsystem {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+/**Solar System objects**/
+#sun {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  /*Position Sun*/
+ 
+  margin: -100px 0 0 -100px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+/**Planets**/
+  
+#mercury {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  
+  /*position mercury*/
+  position: absolute;
+  margin: -15px 0 0 -15px;
+  left: 0%;
+  top: 0%;
+}
+
+#venus {
+  height: 38px;
+  width: 38px;
+  background-color: orange;
+  border-radius: 50%;
+  
+  /*position Venus*/
+  position: relative;
+  margin: -19px 0 0 -19px;
+  left: -15%;
+  top: 115%; 
+}
+
+#earth {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  
+  /*Position Earth*/  
+  position: absolute;
+  margin: -20px 0 0 -20px;
+  left: -32%;
+  top: -32%;
+}
+
+#mars {
+  height: 34px;
+  width: 34px;
+  background-color: red;
+  border-radius: 50%;
+  
+  /*Position Mars*/
+  position: absolute;
+  margin: -17px 0 0 -17px;
+  left: 149%;
+  top: -49%;
+}
+
+#jupiter {
+  height: 100px;
+  width: 100px;
+  background-color: coral;
+  border-radius: 50%;
+  
+  /*Position Jupiter*/
+  position: absolute;
+  margin: -50px 0 0 -50px;
+  left: 170%;
+  top: 95%;
+}
+
+#saturn {
+  height: 80px;
+  width: 80px;
+  background-color: lemonchiffon;
+  border-radius: 50%;
+  
+  /*Position Uranus*/
+  position: absolute;
+  margin: -40px 0 0 -40px;
+  left: -84%;
+  top: 35%;
+}
+
+#uranus {
+  height: 60px;
+  width: 60px;
+  background-color: turquoise;
+  border-radius: 50%;
+  
+  /*Position Uranus*/
+  position: absolute;
+  margin: -30px 0 0 -30px;
+  left: -100%;
+  top: 80%;
+}
+
+#neptune {
+  height: 54px;
+  width: 54px;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  
+  /*position neptune*/
+  position: absolute;
+  margin: -27px 0 0 -27px;
+  left: 220%;
+  top: 120%;
+}
+
+/***Object Text***/
+.objecttext {
+  position: relative; 
+}
+
+/**Individual Object Text**/
+
+/*Mercury text*/
+#mercurytext {
+  left: -38%;
+  top: 50%;
+}
+
+/*Venus Text*/
+#venustext {
+  top: 100%;
+}
+
+/*Earth Text*/
+#earthtext {
+  top: 56%;
+}
+
+/*Mars Text*/
+#marstext {
+  top: 54%;
+}
+
+/*Jupiter Text*/
+#jupitertext {
+  top: 85%;
+}
+
+/*Saturn Text*/
+#saturntext {
+  top: 83%;
+}
+
+/*Uranus Text*/
+#uranustext {
+  top: 80%;
+}
+
+/*Neptune Text*/
+#neptunetext {
+  top: 65%;
+}
+
+/*Sun Text*/
+#suntext {
+  top: 95%;
+}
+
+
+
+
+
+
